@@ -1,0 +1,51 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Eddie Webb"
+theme = "hugo-resume"
+
+[params]
+    firstName = "jc"
+    lastName = "chen"
+    address = "深圳 福田区"
+    phone = "1-555-555-1234"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/TechChat.png"
+    email = "junchangchen@gmail.com"
+    description = "本事不大,努力不小."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = false
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+    showQr = false
+    showSpec = true
+    showPhoto = true
+
+# [[params.handles]]
+#     name = "LinkedIn"
+#     link = "https://www.linkedin.com/in/edwardwebb/"
+
+
+# [[params.handles]]
+#     name = "GitHub"
+#     link = "https://github.com/eddiewebb/"
+
+# [[params.handles]]
+#     name = "Bitbucket"
+#     link = "https://bitbucket.org/eddiewebb/"
+
+# [[params.handles]]
+#     name = "Stack Overflow"
+#     link = "https://stackoverflow.com/users/story/82880"
+#     icon = "stack-overflow"
+
+# [[params.handles]]
+#     name = "Keybase"
+#     link = "https://keybase.io/edwardawebb"
+#     icon = "keybase"
+
+[params.google.analytics]
+    trackerID = "XX-123446-01"
